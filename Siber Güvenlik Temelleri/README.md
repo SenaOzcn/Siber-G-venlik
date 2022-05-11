@@ -4,6 +4,8 @@
 
 ### OSI Referans Modeli
 
+![gorsel](https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/OSI_HUN.gif/640px-OSI_HUN.gif)
+
 **Uygulama** Kullanıcı etkileşimli uygulamalar: HTTP,SMTP
 
 **Sunu** Farklı veri formatlarının birbirine dönüşümü: ASCII, MP3, JPG
@@ -17,3 +19,7 @@
 **Veri Bağlama** *(Fiziksel olarak hangi cihazlarla haberleşildiği)* Ortama Erişim: Ethernet, Wireless
 
 **Fiziksel** *(1 ve 0'lardan oluşur.)* İkili iletim: Koaksiyel, UTP ve fiber kablolar
+
+### Katmanlar Arası Haberleşme
+
+![gorsel](https://ecomputernotes.com/images/Communication-between-the-layers-in-OSI-model.jpg)
