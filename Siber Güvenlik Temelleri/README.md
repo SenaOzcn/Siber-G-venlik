@@ -23,3 +23,26 @@
 ### Katmanlar Arası Haberleşme
 
 ![gorsel](https://ecomputernotes.com/images/Communication-between-the-layers-in-OSI-model.jpg)
+
+Görselde görüldüğü üzere en üstte *Application* katmanı var. Bu katmanda, göndermek istediğimiz paketi alıyoruz.
+
+*Presentation* Sunum katmanında, gerekiyorsa şifreleme ya da zipleme ya da format değişikliğine ihtiyacımız varsa, bu değişiklikleri sağlarız.
+
+*Session* Koymamız gereken oturum bilgilerini yerleştiriyoruz.
+
+*Transport* **TSP Header** bunun içerisinde;
+- Paketin karşı tarafta gönderileceği **Port Numarası**
+- Paketin bizden çıkacağı **PORT Numarası**
+- Hangi protokolle *(TSP,UDP)* gideceği
+
+bilgileri vardır.
+
+*IP Katmanı* için;
+- Kendi **IP Adresimizi** yerleştiriyoruz.
+- Ardından göndermek istediğimiz **IP Adresini** yerleştiriyoruz.
+
+Bu şekilde paketler yüklenir.
+
+Nasıl ki yukardan aşağıya doğru paketleri yüklediysek, aynı şekilde aşağıdan yukarıya doğru paketler açılmaya başlanır.
+
+### Katmanlar ve Protokoller
