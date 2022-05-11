@@ -8,12 +8,12 @@
 
 **Sunu** Farklı veri formatlarının birbirine dönüşümü: ASCII, MP3, JPG
 
-**Oturum** Soket açma, oturum kurma: SQL,RPC
+**Oturum** *(Oturumun açılması, yönetilmesi ve sonlandırılması bu katmanda gerçekleşir.)* Soket açma, oturum kurma: SQL,RPC
 
-**Taşıma** Hata ve akış kontrolü: TCP, UDP
+**Taşıma** *(Bir bilgisayardan başka bir bilgisayara bağlantıyı gerçekleştirdikten sonra, bu bağlantıyı yöneten, sonlandıran ve verinin kontrolünü sağlayan mekanızmaların devreye girdiği katmandır.)* Hata ve akış kontrolü: TCP, UDP
 
-**Ağ** Uçtan uca iletişim, sanal adresleme: IP
+**Ağ** *(Bu katmada, network bazında, farklı protokoller-[Dynamic Routing](https://www.geeksforgeeks.org/what-is-dynamic-routing-in-computer-network/)- devreye girerek, bir noktadan diğer noktaya en hızlı şekilde veri gönderimi sağlanır.)* Uçtan uca iletişim, sanal adresleme: IP
 
-**Veri Bağlama** Ortama Erişim: Ethernet, Wireless
+**Veri Bağlama** *(Fiziksel olarak hangi cihazlarla haberleşildiği)* Ortama Erişim: Ethernet, Wireless
 
-**Fiziksel** İkili iletim: Koaksiyel, UTP ve fiber kablolar
+**Fiziksel** *(1 ve 0'lardan oluşur.)* İkili iletim: Koaksiyel, UTP ve fiber kablolar
