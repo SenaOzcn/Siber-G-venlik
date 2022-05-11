@@ -58,3 +58,5 @@ Nasıl ki yukardan aşağıya doğru paketleri yüklediysek, aynı şekilde aşa
 4. Ağ Erişimi
 
 ![gorsel](https://www.cemaltaner.com.tr/wp-content/uploads/2018/09/b1%C5%9F10.png)
+
+*Her katman çalışmak için bir alt katmanın servisine ihtiyaç duyar.*
