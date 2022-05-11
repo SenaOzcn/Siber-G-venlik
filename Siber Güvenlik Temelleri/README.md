@@ -1,8 +1,8 @@
-### Internet Protokolü
+## Internet Protokolü
 
 **IP:** Bilgisayar ve yönlendiricilerin iletişimi için ortak ağ protokolü.
 
-### OSI Referans Modeli
+## OSI Referans Modeli
 
 ![gorsel](https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/OSI_HUN.gif/640px-OSI_HUN.gif)
 
@@ -20,7 +20,7 @@
 
 **Fiziksel** *(1 ve 0'lardan oluşur.)* İkili iletim: Koaksiyel, UTP ve fiber kablolar
 
-### Katmanlar Arası Haberleşme
+## Katmanlar Arası Haberleşme
 
 ![gorsel](https://ecomputernotes.com/images/Communication-between-the-layers-in-OSI-model.jpg)
 
@@ -45,4 +45,16 @@ Bu şekilde paketler yüklenir.
 
 Nasıl ki yukardan aşağıya doğru paketleri yüklediysek, aynı şekilde aşağıdan yukarıya doğru paketler açılmaya başlanır.
 
-### Katmanlar ve Protokoller
+## Katmanlar ve Protokoller
+
+### TCP/IP Referans Modeli
+
+İnternetin temeli.
+
+4 Katmandan oluşur.
+1. Uygulama
+2. Taşıma
+3. Ağ
+4. Ağ Erişimi
+
+
