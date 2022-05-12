@@ -64,3 +64,11 @@ Nasıl ki yukardan aşağıya doğru paketleri yüklediysek, aynı şekilde aşa
 **Switch** Sadece lokal ağ üzerinde, aynı ağda bulunan cihazların, birbiriyle haberleşmesi için konumlandırılır.
 
 **Router** IP'yi anlayabilecek cihazlar.
+
+### Katman 7 - Uygulama Katmanı
+
+Uygulamanın iş mantığı ve işlevselliği bu katmadandır. Kullanıcıların ağ üzerinden hizmetlerle etkileşim kurmak için kullandıkları şeydir. Çoğu geliştirici, *Uygulama Katmanında* uygulamalar oluşturur.
+
+- HTTP - Web uygulamalarına erişmemizi sağlar.
+- FTP - Kullanıcıların dosya aktarmasına izin verir.
+- SNMP - Ağ cihazı yapılandırmalarını okumak ve güncellemek için protokol.
