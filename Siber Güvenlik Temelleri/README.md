@@ -91,3 +91,13 @@ Yaygın protokoller:
 - SOCKS - Bir proxy sunucusu aracılığıyla paket göndermek için bir protokol.
 - NetBIOS - Oturumlar oluşturmak ve adları çözmek için eski bir Windows protokolü.
 - SIP - VOIP ieltişimlerine katılmak için kullanılan protokoldür.
+
+### Katman 4 - Taşıma Katmanı
+
+Uygulamaların ağ üzerinde temsil edilmesini sağlayan katman.
+
+Bu katmandaki bilinen uygulamalar:
+
+- TCP - Birçok uygulama için kullanılır, kararlılık sağlar, herhangi bir zamanda ne kadar veri gönderilebileceğinin kontrolü, güvenilirlik ve daha fazlası.
+- UDP - Birçok hizmet için hafif ve hızlı protokol kullanımı.
+- QUIC - Daha hızlı bağlantılar için tasarlanmış bir protokol be HTTP protokolünün 2. sürümüyle beraberdir.
