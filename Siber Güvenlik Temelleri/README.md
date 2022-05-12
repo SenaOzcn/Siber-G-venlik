@@ -72,3 +72,13 @@ Uygulamanın iş mantığı ve işlevselliği bu katmadandır. Kullanıcıların
 - HTTP - Web uygulamalarına erişmemizi sağlar.
 - FTP - Kullanıcıların dosya aktarmasına izin verir.
 - SNMP - Ağ cihazı yapılandırmalarını okumak ve güncellemek için protokol.
+
+### Katman 6 - Sunum Katmanı
+
+Tipik olarak görünmeyen bir katmandır. Verileri uyarlamaktan, dönüştürmekten ve çevirmekten sorumludur.
+
+Bu katman, uygulamanın ve altındaki katmanların birbirini anlayabilmesini sağlamak içindir.
+
+- Metin ve verileri temsil etmek için kullanılan *Kodlama Şemaları*, örneğin ASCII ve UTF
+- Hizmetler için şifreleme, örneğin SSL ve TSL
+- Sıkıştırma, örneğin birçok HTTP uygulamasında gösterilen GZip.
