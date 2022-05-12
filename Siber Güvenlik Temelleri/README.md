@@ -101,3 +101,33 @@ Bu katmandaki bilinen uygulamalar:
 - TCP - Birçok uygulama için kullanılır, kararlılık sağlar, herhangi bir zamanda ne kadar veri gönderilebileceğinin kontrolü, güvenilirlik ve daha fazlası.
 - UDP - Birçok hizmet için hafif ve hızlı protokol kullanımı.
 - QUIC - Daha hızlı bağlantılar için tasarlanmış bir protokol be HTTP protokolünün 2. sürümüyle beraberdir.
+
+### Katman 3 - Ağ Katmanı
+
+Paketleri yönlendiriciler aracılığıyla ağlar arasında yönlendiren katmandır.
+
+Bu katmanda aşağıdaki protokoller bulunur:
+
+- IP - İnternete erişirken kullanılır. IP sürüm 4 ve 6 olmak üzere iki versiyondan gelir.
+- ICMP - Ağ cihazları ve ağ operatörleri tarafından, ağ bağlantılarını teşhis etmek veya cihazların hata koşullarını gönderip bunlara yanıt vermesi ve daha fazlası için kullanılır.
+- IPSec - İki ağ cihazı arasında şifreli ve güvenli bağlantılara izin verir.
+
+### Katman 2 - Bağlantı Katmanı
+
+Bağlantı ağları, adından da anlaşılacağı gibi, ağ düğümlerinin bağlı olduğu fiziksel bağlantılar aracılığıyla paket göndermek için tasarlanmış protokollerden oluşur. 
+
+Bu katmandaki protokoller şunları içerir:
+
+- Ethernet - Fiziksel bir kablo kullanarak ağlara bağlanırken çoğu işletim sistemi tarafından kullanılan bir protokol.
+- Wi-Fi - Radyo sinyalleri aracılığıyla ağlara erişmek için, IEEE 802.11.xx adlı bir protokol ailesi kullanılır.
+- NDP - IP sürüm 6(IPv6), IPv6 aracılığıyla iletişim kurmak için gereken bilgileri toplamak için bağlantı katmanında bu protokol kullanılır.
+
+### Katman 1 - Fiziksel Katman
+
+Fiziksel katman, bitlerin ve baytların fiziksel bir ortam arasında aktarılmasına izin veren sinyali temsil eder. Elektrik sinyalleri veya örneğin fiber kullanılarak bir kablo üzerinden radyo veya sinyaller aracılığıyla aktarılabilir.
+
+Fiziksel katman protokollerinin örnekleri şunları içerir:
+
+- CAN Bus - Mikrodenetleyicilerde ve diğer cihazlarda, bilgisayar içermeyen diğer benzer cihazlarla iletişim kurmak için kullanılır. Genellikle ICS'de kullanılır.
+- Ethernet Fiziksel Katman - Ethernet tarafından, saniyede birçok gigabayt trafik hızına kadar sinyal göndermek için fiziksel katmanda kullanılır.
+- Bluetooth Fiziksel Katman - Bluetooth'un ayrıca radyo sinyallerinin nasıl gönderileceği ve alınacağı konusunda kendi özellikleri vardır.
