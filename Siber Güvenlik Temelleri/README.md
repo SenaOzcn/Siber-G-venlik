@@ -82,3 +82,12 @@ Bu katman, uygulamanın ve altındaki katmanların birbirini anlayabilmesini sa�
 - Metin ve verileri temsil etmek için kullanılan *Kodlama Şemaları*, örneğin ASCII ve UTF
 - Hizmetler için şifreleme, örneğin SSL ve TSL
 - Sıkıştırma, örneğin birçok HTTP uygulamasında gösterilen GZip.
+
+### Katman 5 - Oturum Katmanı
+
+Bu katmanın sorumluluğu, uygulama ile aşağıdaki katmanlar arasındaki bağlantıları yönetmektir. Oturumlar olarak da adlandırılan bağlantıların kurulmasını, sürdürülmesini ve sonlandırılmasını içerir.
+
+Yaygın protokoller:
+- SOCKS - Bir proxy sunucusu aracılığıyla paket göndermek için bir protokol.
+- NetBIOS - Oturumlar oluşturmak ve adları çözmek için eski bir Windows protokolü.
+- SIP - VOIP ieltişimlerine katılmak için kullanılan protokoldür.
