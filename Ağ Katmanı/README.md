@@ -1,5 +1,11 @@
 # IP - The Internet Protocol
 
+IP, yalnızca fiziksel bağlantılar üzerinden değil, aynı zamanda yönlendirici ağları arasında da ağlar arasında iletişim kurmak için kullanılır. Kullanılan adresleme şeması ya IPv4 ya da IPv6'dır.
+
+**Ağ maskesi(Netmask)** , bir ağın ne kadar büyük olduğunu ve ağ içinde hangi paketin yönlendirildiğini ve hangi paketin ağ dışına yönlendirileceğini belirler.
+
+Bazı örnerkler aşağıdaki tablodaki gibidir;
+
 | IP Adresi|     Slash Notation     |    Netmask  |
 | ------------- | ------------- | ------------- |
 | 10.0.0.1 | /8 - Example: 10.0.0.1/8  | 255.0.0.0              |
