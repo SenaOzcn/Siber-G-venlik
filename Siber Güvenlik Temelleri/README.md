@@ -1,7 +1,3 @@
-## Internet Protokolü
-
-**IP:** Bilgisayar ve yönlendiricilerin iletişimi için ortak ağ protokolü.
-
 ## OSI Referans Modeli
 
 ![gorsel](https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/OSI_HUN.gif/640px-OSI_HUN.gif)
